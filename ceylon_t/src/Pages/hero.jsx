@@ -9,9 +9,9 @@ const Hero = () => {
         <NavBar/>
       </div>
 
-      <div>
-        <h3 className='welcomeNote'>Step into the soul of Sri Lanka’s tea heritage,<br></br>
-           where every leaf tells a story!</h3>
+      <div className='welcomeNote'>
+        <h3 ><i>Step into the soul of Sri Lanka’s tea heritage,<br></br>
+           where every leaf tells a story!</i></h3>
       </div>
 
       
