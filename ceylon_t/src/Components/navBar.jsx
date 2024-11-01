@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './navBar.css';
 
 const NavBar = () => {
@@ -10,9 +11,9 @@ const NavBar = () => {
 
             
               <ul>
-                <li><a href='/#'>Home</a></li>
-                <li><a href='/#'>Home</a></li>
-                <li> <a href='/#'>Home</a></li>
+                <li><a href='/#'>History</a></li>
+                <li><a href='/#'>Locations</a></li>
+                <li> <a href='/#'>Recipe</a></li>
                 </ul>
             
 

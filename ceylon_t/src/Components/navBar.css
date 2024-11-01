@@ -4,10 +4,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-left:20px;
+    margin-left: 20px;
     margin-right: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
     background-color:rgb(rgb(76, 75, 75), rgb(155, 155, 155), blue);
 }
 
