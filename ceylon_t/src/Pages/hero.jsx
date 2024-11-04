@@ -10,8 +10,8 @@ const Hero = () => {
       </div>
 
       <div className='welcomeNote'>
-        <h3 ><i>Step into the soul of Sri Lanka’s tea heritage,<br></br>
-           where every leaf tells a story!</i></h3>
+        <h3 ><i>Step Into The Soul Of Sri Lanka’s Tea Heritage,<br></br>
+           Where Every Leaf Tells a Story!</i></h3>
       </div>
 
       
