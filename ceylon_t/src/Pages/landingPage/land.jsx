@@ -5,7 +5,7 @@ import Section1 from '../section1/section';
 const LandingPage = () => {
   return (
     <div>
-        <div><Hero/></div>
+        <div><Hero/></div><br></br>
         <div><Section1/></div>
       
     </div>
