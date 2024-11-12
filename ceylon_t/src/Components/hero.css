@@ -1,10 +1,18 @@
 body{
-    background-image: url('../Assets/Hero.png');  
+     
     background-repeat: no-repeat;        
+    scroll-snap-type: y mandatory; /* Enables scroll snapping for a smooth transition */
+    overflow-y: scroll;
+    height: 100vh;
 }
+.section0{
+    background-image: url('../Assets/Hero.png'); 
+    height: 100vh;
+}
+
 .welcomeNote h3{
     color: aliceblue;
-    margin-top: 120px;
+    margin-top: 180px;
     font-size: 1.5em;
     line-height: 1.4;
     justify-content: center;

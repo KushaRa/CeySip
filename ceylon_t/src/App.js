@@ -1,10 +1,13 @@
 import './App.css';
-import LandingPage from './Pages/landingPage/land';
+import Hero from '../src/Components/hero';
+import Section1 from '../src/Pages/section1/section'
 
 function App() {
   return (
     <div>
-      <LandingPage/>
+      <Hero/>
+      <Section1/>
+      
     </div>
   );
 }
