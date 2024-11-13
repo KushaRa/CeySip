@@ -9,6 +9,8 @@
         transform: translateX(0px);
     }
 }
+
+
 body{
      
     background-repeat: no-repeat;        
@@ -16,14 +18,14 @@ body{
     overflow-y: scroll;
     height: 100vh;
     background-color: #D9D9D9;
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 30%;
     
 }
 .section0{
     background-image: url('../Assets/Hero.png'); 
     height: 100vh;
+    animation: appear 1s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
 
 }
 
@@ -37,8 +39,8 @@ body{
     font-size: 45px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: normal;
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 30%;
-    
+    animation: appear 1s linear;
+}
+.welcomeNote h4:after{
+    transition: all 0.3 ease-in-out;
 }
