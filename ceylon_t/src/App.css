@@ -1,5 +1,31 @@
 .App {
   text-align: center;
+  scroll-snap-type: y mandatory; /* Enables scroll snapping for a smooth transition */
+  overflow-y: scroll;
+  height: 100vh;
+}
+.App > * {
+  scroll-snap-align: start; /* Aligns each section at the start of the viewport */
+  height: 100vh; /* Makes each section fill the full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero, .section1 {
+  width: 100%;
+}
+.hero {
+ 
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+.section1 {
+  background-color: #f8f9fa; /* Example background color for Section1 */
+  text-align: center;
+  font-size: 2rem;
 }
 
 .App-logo {
