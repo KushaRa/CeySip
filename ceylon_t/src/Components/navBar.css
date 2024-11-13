@@ -6,7 +6,7 @@
     justify-content: space-between;
     margin-left: 20px;
     margin-right: 20px;
-    background-color:rgb(rgb(76, 75, 75), rgb(155, 155, 155), blue);
+   
 }
 
 .h3{
@@ -16,11 +16,28 @@ ul{
     flex:1;
     list-style: none;
     text-align: center;
+   
     }
 
 ul li{
     display:inline-block;
     margin:10px 20px;
-    font-size: 18;
+    font-size: 16px;
     cursor:pointer;
 }
+
+a{
+    color: black;
+    text-decoration: none;
+    display: inline-block; /* Allows scaling */
+    transition: transform 0.3s ease; /* Adds smooth scaling */
+    font-weight: 600;
+    
+}
+
+a:hover{       
+    transform: scale(1.5);
+    font-weight: bold;
+} 
+
+
