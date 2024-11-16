@@ -1,0 +1,30 @@
+.sec2{
+    text-align:center;
+}
+.recipeCntan{
+    display: flex;
+    justify-content: space-between; /* Adjusts spacing between the images */
+    align-items: center; /* Aligns items vertically in the center */
+    gap: 20px;
+    margin-left:80px;
+    margin-right: 80px;
+    
+}
+.card1, .card2, .card3 {
+    height:300px;
+    
+}
+
+.textOverlay{
+    position: absolute;
+    top: 50%; /* Centers the text vertically */
+    left: 50%; /* Centers the text horizontally */
+    transform: translate(-50%, -50%); /* Adjusts for centering offset */
+    color: white; /* Text color */
+    font-size: 1.2rem; /* Adjust as needed */
+    font-weight: bold; /* Optional: Makes the text bold */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Adds a semi-transparent background */
+    padding: 5px 10px; /* Optional: Adds padding around the text */
+    border-radius: 5px; /* Optional: Rounds the text background corners */
+    text-align: center; /* Centers multi-line text */
+}
