@@ -15,20 +15,43 @@ function Recipe() {
     <div className='recipeCntan'>
       <div className='card'>
         <img src={img1} alt='chai' />
-        <div className='textOverlay'>Delicious Chai</div>
+        <div className='textOverlay' style={{marginLeft:'-18px'}}>Masala Chai</div>
+        <div className='cOverlay'>
+          A spiced tea made with black tea, 
+          milk, sugar, and a blend of aromatic spices like cardamom, cinnamon, cloves, ginger, and black pepper.
+          It's simmered together to create a warm and flavorful beverage.
+          </div>
       </div>
 
       <div className='card'>
         <img src={img2} alt='chai'/>
+        <div className='textOverlay'>Strawberry Iced Tea</div>
+        <div className='cOverlay'>
+        A fruity iced tea infused with fresh strawberries, 
+        offering a sweet and refreshing flavor. Often made with black tea,
+         strawberries, and sweetener, served over ice.
+          </div>
 
       </div>
 
       <div className='card'>
         <img src={img3} alt='chai'/>
+        <div className='textOverlay' style={{marginLeft:'40px'}}>Butterfly Pea Tea Lemonade</div>
+        <div className='cOverlay'>
+        Known for its vibrant color, this drink is made from
+         butterfly pea flower tea, which changes color when mixed with 
+         acidic ingredients like lemon juice. It is typically 
+        served chilled, with mint leaves for garnish.
+        
+          </div>
 
       </div>
-    </div>      
+     
+    </div>  
+    
+     
     </div>
+    
 
     
   )
