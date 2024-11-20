@@ -22,6 +22,8 @@ body{
 }
 .section0{
     background-image: url('../Assets/Hero.png'); 
+    background-size: cover;
+    font-size: 30px;
     height: 100vh;
     animation: appear 1s linear;
     animation-timeline: view();
@@ -31,12 +33,11 @@ body{
 
 .welcomeNote h4{
     color: white;
-    margin-top: 220px;
-    font-size: 1rem;
+    margin-top: 380px;
     line-height: 1.2;
     justify-content: center;
     text-align: center;
-    font-size: 45px;
+    font-size: 80px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: normal;
     animation: appear 1s linear;
