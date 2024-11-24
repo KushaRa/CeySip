@@ -6,7 +6,6 @@ const Locations = () => {
     <div className='sec4'>
         <div className='secHeader'>
             <h3 className='sechhead'>Explore the Heart of Tea</h3>
-            <p></p>
         </div>
 
       
