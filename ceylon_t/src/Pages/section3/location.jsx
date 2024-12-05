@@ -1,6 +1,6 @@
 import React from 'react';
 import './location.css';
-import './location.css';
+
 
 const Locations = () => {
   return (
